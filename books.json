@@ -1,0 +1,705 @@
+[
+    {
+        "title": "Book Title 1",
+        "author": "Author E",
+        "genre": "Romance",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 2",
+        "author": "Author A",
+        "genre": "Fiction",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 3",
+        "author": "Author A",
+        "genre": "Biography",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 4",
+        "author": "Author D",
+        "genre": "Mystery",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 5",
+        "author": "Author E",
+        "genre": "Fiction",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 6",
+        "author": "Author D",
+        "genre": "Technology",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 7",
+        "author": "Author A",
+        "genre": "Technology",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 8",
+        "author": "Author D",
+        "genre": "Biography",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 9",
+        "author": "Author A",
+        "genre": "Fantasy",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 10",
+        "author": "Author E",
+        "genre": "Biography",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 11",
+        "author": "Author D",
+        "genre": "Romance",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 12",
+        "author": "Author E",
+        "genre": "Science",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 13",
+        "author": "Author E",
+        "genre": "Fantasy",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 14",
+        "author": "Author B",
+        "genre": "Biography",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 15",
+        "author": "Author B",
+        "genre": "Fiction",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 16",
+        "author": "Author A",
+        "genre": "Fiction",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 17",
+        "author": "Author B",
+        "genre": "Biography",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 18",
+        "author": "Author E",
+        "genre": "Fantasy",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 19",
+        "author": "Author C",
+        "genre": "Romance",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 20",
+        "author": "Author D",
+        "genre": "Biography",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 21",
+        "author": "Author D",
+        "genre": "Fiction",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 22",
+        "author": "Author D",
+        "genre": "Romance",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 23",
+        "author": "Author B",
+        "genre": "Technology",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 24",
+        "author": "Author D",
+        "genre": "Technology",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 25",
+        "author": "Author D",
+        "genre": "Technology",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 26",
+        "author": "Author D",
+        "genre": "Mystery",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 27",
+        "author": "Author C",
+        "genre": "Romance",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 28",
+        "author": "Author B",
+        "genre": "Science",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 29",
+        "author": "Author C",
+        "genre": "Fantasy",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 30",
+        "author": "Author C",
+        "genre": "Biography",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 31",
+        "author": "Author A",
+        "genre": "Science",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 32",
+        "author": "Author D",
+        "genre": "Science",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 33",
+        "author": "Author B",
+        "genre": "Science",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 34",
+        "author": "Author E",
+        "genre": "Fiction",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 35",
+        "author": "Author C",
+        "genre": "Mystery",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 36",
+        "author": "Author B",
+        "genre": "Science",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 37",
+        "author": "Author C",
+        "genre": "Biography",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 38",
+        "author": "Author D",
+        "genre": "Fantasy",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 39",
+        "author": "Author A",
+        "genre": "Fantasy",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 40",
+        "author": "Author B",
+        "genre": "Fantasy",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 41",
+        "author": "Author E",
+        "genre": "Fiction",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 42",
+        "author": "Author B",
+        "genre": "Technology",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 43",
+        "author": "Author C",
+        "genre": "Technology",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 44",
+        "author": "Author A",
+        "genre": "Biography",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 45",
+        "author": "Author A",
+        "genre": "Fiction",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 46",
+        "author": "Author A",
+        "genre": "Fantasy",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 47",
+        "author": "Author B",
+        "genre": "Technology",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 48",
+        "author": "Author C",
+        "genre": "Biography",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 49",
+        "author": "Author C",
+        "genre": "Science",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 50",
+        "author": "Author D",
+        "genre": "Fantasy",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 51",
+        "author": "Author C",
+        "genre": "Romance",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 52",
+        "author": "Author C",
+        "genre": "Biography",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 53",
+        "author": "Author A",
+        "genre": "Fantasy",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 54",
+        "author": "Author B",
+        "genre": "Biography",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 55",
+        "author": "Author A",
+        "genre": "Science",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 56",
+        "author": "Author A",
+        "genre": "Mystery",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 57",
+        "author": "Author E",
+        "genre": "Romance",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 58",
+        "author": "Author C",
+        "genre": "Mystery",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 59",
+        "author": "Author D",
+        "genre": "Biography",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 60",
+        "author": "Author B",
+        "genre": "Biography",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 61",
+        "author": "Author C",
+        "genre": "Technology",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 62",
+        "author": "Author B",
+        "genre": "Fiction",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 63",
+        "author": "Author B",
+        "genre": "Biography",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 64",
+        "author": "Author C",
+        "genre": "Romance",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 65",
+        "author": "Author C",
+        "genre": "Science",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 66",
+        "author": "Author C",
+        "genre": "Fiction",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 67",
+        "author": "Author D",
+        "genre": "Mystery",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 68",
+        "author": "Author C",
+        "genre": "Romance",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 69",
+        "author": "Author B",
+        "genre": "Romance",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 70",
+        "author": "Author B",
+        "genre": "Biography",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 71",
+        "author": "Author A",
+        "genre": "Biography",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 72",
+        "author": "Author E",
+        "genre": "Science",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 73",
+        "author": "Author E",
+        "genre": "Fantasy",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 74",
+        "author": "Author D",
+        "genre": "Fiction",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 75",
+        "author": "Author B",
+        "genre": "Fantasy",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 76",
+        "author": "Author A",
+        "genre": "Biography",
+        "image": "/static/images/book7.jpg",
+        "issued_to": {
+            "id": "6540",
+            "role": "student"
+        }
+    },
+    {
+        "title": "Book Title 77",
+        "author": "Author E",
+        "genre": "Fantasy",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 78",
+        "author": "Author D",
+        "genre": "Romance",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 79",
+        "author": "Author A",
+        "genre": "Technology",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 80",
+        "author": "Author A",
+        "genre": "Fantasy",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 81",
+        "author": "Author C",
+        "genre": "Science",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 82",
+        "author": "Author C",
+        "genre": "Romance",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 83",
+        "author": "Author C",
+        "genre": "Romance",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 84",
+        "author": "Author C",
+        "genre": "Technology",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 85",
+        "author": "Author D",
+        "genre": "Fiction",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 86",
+        "author": "Author D",
+        "genre": "Biography",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 87",
+        "author": "Author A",
+        "genre": "Mystery",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 88",
+        "author": "Author C",
+        "genre": "Technology",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 89",
+        "author": "Author C",
+        "genre": "Fiction",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 90",
+        "author": "Author A",
+        "genre": "Technology",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 91",
+        "author": "Author E",
+        "genre": "Fantasy",
+        "image": "/static/images/book2.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 92",
+        "author": "Author D",
+        "genre": "Technology",
+        "image": "/static/images/book3.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 93",
+        "author": "Author E",
+        "genre": "Fantasy",
+        "image": "/static/images/book4.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 94",
+        "author": "Author E",
+        "genre": "Mystery",
+        "image": "/static/images/book5.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 95",
+        "author": "Author D",
+        "genre": "Fiction",
+        "image": "/static/images/book6.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 96",
+        "author": "Author C",
+        "genre": "Technology",
+        "image": "/static/images/book7.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 97",
+        "author": "Author D",
+        "genre": "Technology",
+        "image": "/static/images/book8.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 98",
+        "author": "Author E",
+        "genre": "Technology",
+        "image": "/static/images/book9.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 99",
+        "author": "Author D",
+        "genre": "Fantasy",
+        "image": "/static/images/book10.jpg",
+        "issued_to": null
+    },
+    {
+        "title": "Book Title 100",
+        "author": "Author C",
+        "genre": "Fantasy",
+        "image": "/static/images/book1.jpg",
+        "issued_to": null
+    }
+]

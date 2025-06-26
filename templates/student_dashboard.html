@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Welcome, {{ student.name }}</h1>
+        <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+      </div>
+    </header>
+
+    <main class="dashboard-container">
+      <h2>Your Issued Books</h2>
+      {% if issued_books %}
+      <div class="book-grid">
+        {% for book in issued_books %}
+        <div class="book-card">
+          <img
+            src="{{ url_for('static', filename='images/book.png') }}"
+            alt="Book"
+            class="book-img"
+          />
+          <h3>{{ book.title }}</h3>
+          <p><strong>Author:</strong> {{ book.author }}</p>
+          <p><strong>Genre:</strong> {{ book.genre }}</p>
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="no-books">You have no books issued.</p>
+      {% endif %}
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Library Management System</p>
+      </div>
+    </footer>
+  </body>
+</html>

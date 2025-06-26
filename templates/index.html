@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head><title>Library Dashboard</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Welcome {{ student.name }}!</h1>
+  <p>Total Books Issued: {{ total_books_issued }}</p>
+
+  <a href="{{ url_for('logout') }}">Logout</a>
+
+  <h2>Books List</h2>
+  <ul>
+    {% for book in books %}
+      <li>
+        <strong>{{ book.title }}</strong> by {{ book.author }} ({{ book.genre }}) <br>
+        {% if book.issued_to %}
+          Issued to {{ book.issued_to.id }} ({{ book.issued_to.role }})
+          <form action="{{ url_for('return_book', book_index=loop.index0) }}" method="POST">
+            <button type="submit">Return</button>
+          </form>
+        {% else %}
+          <form action="{{ url_for('issue_book', book_index=loop.index0) }}" method="POST">
+            <input type="text" name="id" placeholder="Student/Teacher ID" required>
+            <select name="role">
+              <option value="student">Student</option>
+              <option value="teacher">Teacher</option>
+            </select>
+            <button type="submit">Issue</button>
+          </form>
+        {% endif %}
+        <a href="{{ url_for('delete_book', book_index=loop.index0) }}">Delete</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Add Book</h2>
+  <form method="POST" action="{{ url_for('add_book') }}">
+    <input type="text" name="title" placeholder="Book Title" required>
+    <input type="text" name="author" placeholder="Author" required>
+    <input type="text" name="genre" placeholder="Genre" required>
+    <button type="submit">Add Book</button>
+  </form>
+
+  <h2>Add Student</h2>
+  <form method="POST" action="{{ url_for('add_student') }}">
+    <input type="text" name="name" placeholder="Student Name" required>
+    <input type="text" name="student_id" placeholder="Student ID" required>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <h2>All Students</h2>
+  <ul>
+    {% for s in students %}
+      <li>{{ s.name }} ({{ s.student_id }}) - 
+        <a href="{{ url_for('delete_student', student_index=loop.index0) }}">Delete</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Add Teacher</h2>
+  <form method="POST" action="{{ url_for('add_teacher') }}">
+    <input type="text" name="name" placeholder="Teacher Name" required>
+    <input type="text" name="teacher_id" placeholder="Teacher ID" required>
+    <button type="submit">Add Teacher</button>
+  </form>
+
+  <h2>All Teachers</h2>
+  <ul>
+    {% for t in teachers %}
+      <li>{{ t.name }} ({{ t.teacher_id }}) - 
+        <a href="{{ url_for('delete_teacher', teacher_index=loop.index0) }}">Delete</a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

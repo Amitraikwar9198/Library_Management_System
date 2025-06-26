@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Amit ",
+        "student_id": "2580"
+    },
+    {
+        "name": "Sumit",
+        "student_id": "1234"
+    },
+    {
+        "name": "Amit Raikwar",
+        "student_id": "6540"
+    },
+    {
+        "name": "Amit ",
+        "student_id": "22222",
+        "contact": "9198947788",
+        "email": "amitraikwar919894@gmail.com",
+        "course": "B.Tech ME"
+    },
+    {
+        "name": "Amit ",
+        "student_id": "5648",
+        "contact": "9198947788",
+        "email": "amitraikwar919894@gmail.com",
+        "course": "B.Tech CSE",
+        "address": "mauranipur jhansi"
+    },
+    {
+        "name": "sheetal",
+        "student_id": "1236",
+        "contact": "9638527411",
+        "email": "amitraikwar919894@gmail.com",
+        "course": "B.Tech CSE",
+        "address": "rdgfdf"
+    }
+]

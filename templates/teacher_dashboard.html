@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Library Management System - Teacher Dashboard</h1>
+      <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Add Book Section -->
+    <div class="add-book">
+      <h2>Add New Book</h2>
+      <form method="POST" enctype="multipart/form-data">
+        <label for="title">Book Title:</label>
+        <input type="text" id="title" name="title" required placeholder="Enter book title" />
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required placeholder="Enter author's name" />
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" required placeholder="Enter book genre" />
+
+        <label for="image">Book Image:</label>
+        <input type="file" id="image" name="image" required />
+
+        <button type="submit" class="submit-btn">Add Book</button>
+      </form>
+    </div>
+
+    <!-- Book List Section -->
+    <div class="book-list">
+      <h2>Existing Books</h2>
+      <div class="book-items">
+        {% for book in books %}
+        <div class="book-item">
+          <img src="{{ url_for('static', filename='images/' + book.image) }}" alt="Book Image" />
+          <div class="book-info">
+            <h4>{{ book.title }}</h4>
+            <p><strong>Author:</strong> {{ book.author }}</p>
+            <p><strong>Genre:</strong> {{ book.genre }}</p>
+
+            {% if book.issued_to %}
+              <p><strong>Issued To:</strong> {{ book.issued_to.id }}</p>
+            {% else %}
+              <p><strong>Status:</strong> Available</p>
+            {% endif %}
+
+            <div class="book-actions">
+              {% if not book.issued_to %}
+              <!-- Issue book -->
+              <form method="POST" action="{{ url_for('issue_book', index=loop.index0) }}">
+                <label for="id">Issue to:</label>
+                <select name="id" required>
+                  {% for student in students %}
+                  <option value="{{ student.student_id }}">{{ student.name }} ({{ student.student_id }})</option>
+                  {% endfor %}
+                </select>
+                <button type="submit" class="action-btn">Issue</button>
+              </form>
+              {% else %}
+              <!-- Return book -->
+              <form method="POST" action="{{ url_for('return_book', index=loop.index0) }}">
+                <button type="submit" class="action-btn">Return</button>
+              </form>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Students List -->
+    <div class="students-list">
+      <h2>Registered Students</h2>
+      <div class="student-cards">
+        {% for student in students %}
+        <div class="student-card">
+          <p><strong>Name:</strong> {{ student.name }}</p>
+          <p><strong>ID:</strong> {{ student.student_id }}</p>
+          <p><strong>Email:</strong> {{ student.email }}</p>
+          <p><strong>Contact:</strong> {{ student.contact }}</p>
+          <p><strong>Course:</strong> {{ student.course }}</p>
+          <p><strong>address:</strong> {{ student.address }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Library Management System. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

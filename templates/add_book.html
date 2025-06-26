@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="add-book">
+    <h2>Add New Book</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="text" name="title" placeholder="Title" required><br>
+        <input type="text" name="author" placeholder="Author" required><br>
+        <input type="text" name="genre" placeholder="Genre" required><br>
+        <input type="file" name="image" accept="image/*"><br>
+        <button type="submit">Add Book</button>
+    </form>
+</div>
+  <script src="https://unpkg.com/html5-qrcode"></script>
+<div id="qr-reader" style="width:300px"></div>
+<script>
+    function onScanSuccess(decodedText, decodedResult) {
+        const [title, author, genre] = decodedText.split('|');
+        document.querySelector('input[name="title"]').value = title;
+        document.querySelector('input[name="author"]').value = author;
+        document.querySelector('input[name="genre"]').value = genre;
+    }
+
+    const html5QrCode = new Html5Qrcode("qr-reader");
+    html5QrCode.start(
+        { facingMode: "environment" },
+        { fps: 10, qrbox: 250 },
+        onScanSuccess
+    );
+</script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Library Management System</h1>
+        </div>
+    </header>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Student Registration</h2>
+            <form method="POST">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="text" name="student_id" placeholder="Student ID" required>
+    <input type="email" name="email" placeholder="Email ID" required>
+    <input type="text" name="contact" placeholder="Contact Number" required>
+   
+
+    <!-- Course dropdown -->
+    <select name="course" required>
+        <option value="">-- Select Course --</option>
+        <option value="B.Tech CSE">B.Tech CSE</option>
+        <option value="B.Tech ME">B.Tech ME</option>
+        <option value="Diploma">Diploma</option>
+        <option value="B.Sc Agriculture">B.Sc Agriculture</option>
+        <option value="B.Sc Home Science">B.Sc Home Science</option>
+        <option value="B.A">B.A</option>
+    </select>
+     <input type="text" name="address" placeholder="Enter your address" required>
+<button type="submit" class="login-btn">Register</button>
+                 <p><a href="/login">Login</a></p>
+    
+</form>
+
+
+                
+         
+
+            {% with messages = get_flashed_messages(category_filter=["success", "danger"]) %}
+                {% if messages %}
+                    <div class="alert">
+                        {% for message in messages %}
+                            <p>{{ message }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
